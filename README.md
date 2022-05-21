@@ -18,20 +18,20 @@ Better algorithms for predicting future airport configurations can support criti
 ![image](https://drivendata-public-assets.s3.amazonaws.com/airportconfig-airport-map.svg)
 
 ## Files
-# 'katl exp' 
+### 'katl exp' 
 this folder contains initial experiments of katl. 
 data_process.py: select train dataset for 30 mins prediction. 
 katl-data process.py: select train dataset for 30 mins to 6 hours prediction.
 katl-models.py: train models for 30 mins to 6 hours prediction.
 'xgboost test' folder: code for test the xgboost method on katl dataset.
 
-# 'src' 
+### 'src' 
 data_processing_30mins.py: pepare 30 mins lookahead prediction training dataset of 10 airports 
 timebasedProcessing.py: pepare 30 mins to 6 hours lookahead prediction training dataset of 10 airports 
 xg_boost.py: xgboost method implement 
 
-# 'Open Submission' 
+### 'Open Submission' 
 'Code' folder: generate test dataset based on required timestamp of this competition(generate_training_dataset.py), train models(train models.py) and make prediction(main.py)
 
-# Rankings
+## Rankings
 The final mean aggregated log loss of our models was 0.0746. Our group ranked 9 in this competition. 
