@@ -1,5 +1,5 @@
 # NASA Competition - Run-way Functions: Predict Reconfigurations at US Airports
-*[https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/](https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/)](https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/)*
+*(https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/)*
 
 Team Participants: Yue Li, Ellis Thompson, Shulu Chen
 
@@ -11,8 +11,27 @@ An important part of this equation is airport configuration, the combination of 
 These changes can result in delays to flights, which may have to alter their flight paths well ahead of reaching the airport to get into the correct alignment or enter holding patterns in the air as the flows are altered. The decisions to change the airport configuration are driven by data and observations, meaning it is possible to predict these changes in advance and give flight operators time to adjust schedules in order to reduce delays and wasted fuel.
 
 ## Task
-The goal of this challenge is to automatically predict airport configuration changes from real-time data sources including air traffic and weather. Better algorithms for predicting future airport configurations can support critical decisions, reduce costs, conserve energy, and mitigate delays across the national airspace network.
+This task focuses on 10 major airports in the US. The goal of this challenge is to automatically predict airport configuration changes from real-time data sources including air traffic and weather. By using these data of different airports, models were built to predict future runway configruation from 30mins to 6 hours.
 
-![image](https://drivendata-public-assets.s3.amazonaws.com/airportconfig-airport-map.svg))
+Better algorithms for predicting future airport configurations can support critical decisions, reduce costs, conserve energy, and mitigate delays across the national airspace network. 
 
-This task focuses on 10 major airports in the US.
+![image](https://drivendata-public-assets.s3.amazonaws.com/airportconfig-airport-map.svg)
+
+## Files
+# 'katl exp' 
+this folder contains initial experiments of katl. 
+data_process.py: select train dataset for 30 mins prediction. 
+katl-data process.py: select train dataset for 30 mins to 6 hours prediction.
+katl-models.py: train models for 30 mins to 6 hours prediction.
+'xgboost test' folder: code for test the xgboost method on katl dataset.
+
+# 'src' 
+data_processing_30mins.py: pepare 30 mins lookahead prediction training dataset of 10 airports 
+timebasedProcessing.py: pepare 30 mins to 6 hours lookahead prediction training dataset of 10 airports 
+xg_boost.py: xgboost method implement 
+
+# 'Open Submission' 
+'Code' folder: generate test dataset based on required timestamp of this competition(generate_training_dataset.py), train models(train models.py) and make prediction(main.py)
+
+# Rankings
+The final mean aggregated log loss of our models was 0.0746. Our group ranked 9 in this competition. 
