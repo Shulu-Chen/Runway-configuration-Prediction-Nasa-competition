@@ -1,5 +1,5 @@
 # NASA Competition - Run-way Functions: Predict Reconfigurations at US Airports
-*[[https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/](https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/)](https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/)*
+*[https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/](https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/)](https://www.drivendata.org/competitions/89/competition-nasa-airport-configuration/)*
 
 Team Participants: Yue Li, Ellis Thompson, Shulu Chen
 
@@ -13,7 +13,7 @@ These changes can result in delays to flights, which may have to alter their fli
 ## Task
 The goal of this challenge is to automatically predict airport configuration changes from real-time data sources including air traffic and weather. Better algorithms for predicting future airport configurations can support critical decisions, reduce costs, conserve energy, and mitigate delays across the national airspace network.
 
-![image]([https://www.dexerto.com/wp-content/uploads/2021/09/24/league-of-legends-worlds-202
-1-night-and-dawn-event-missions-rewards-skins-leaks-1248x702.jpg.webp](https://drivendata-public-assets.s3.amazonaws.com/airportconfig-airport-map.svg))
+![image](https://www.dexerto.com/wp-content/uploads/2021/09/24/league-of-legends-worlds-202
+1-night-and-dawn-event-missions-rewards-skins-leaks-1248x702.jpg.webp)
 
 This task focuses on 10 major airports in the US.
