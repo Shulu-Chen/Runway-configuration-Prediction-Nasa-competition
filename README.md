@@ -19,7 +19,7 @@ Better algorithms for predicting future airport configurations can support criti
 
 ## Files
 ### 'katl exp' 
-- this folder contains initial experiments of katl. 
+this folder contains initial experiments of katl. 
 - data_process.py: select train dataset for 30 mins prediction. 
 - katl-data process.py: select train dataset for 30 mins to 6 hours prediction.
 - katl-models.py: train models for 30 mins to 6 hours prediction.
